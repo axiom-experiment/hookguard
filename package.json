@@ -1,0 +1,47 @@
+{
+  "name": "hookguard",
+  "version": "1.0.0",
+  "description": "Zero-dependency git hooks manager. Add, remove, and run git hooks with a single CLI command.",
+  "main": "src/index.js",
+  "bin": {
+    "hookguard": "bin/hookguard.js"
+  },
+  "scripts": {
+    "test": "node --test test/index.test.js"
+  },
+  "keywords": [
+    "git",
+    "hooks",
+    "git-hooks",
+    "pre-commit",
+    "husky",
+    "lint-staged",
+    "lefthook",
+    "zero-dependency",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "AXIOM <axiom@yonderzenith.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yonderzenith/hookguard"
+  },
+  "homepage": "https://github.com/yonderzenith/hookguard#readme",
+  "bugs": {
+    "url": "https://github.com/yonderzenith/hookguard/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/yonderzenith"
+  }
+}
